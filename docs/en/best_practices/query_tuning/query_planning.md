@@ -18,7 +18,7 @@ StarRocks provides several ways to inspect the query plan:
 1. **EXPLAIN statement**:  
    Use `EXPLAIN` to display the logical or physical execution plan for a query. You can add options to control the output:
    - `EXPLAIN LOGICAL <query>`: Shows the simplified plan.
-   - `EXPLAIN <query>`: Shows the basic phyical plan
+   - `EXPLAIN <query>`: Shows the basic physical plan
    - `EXPLAIN VERBOSE <query>`: Shows the physical plan with detailed information.
    - `EXPLAIN COSTS <query>`: Includes estimated costs for each operation, which is used to diagnose the statistics issue
 
